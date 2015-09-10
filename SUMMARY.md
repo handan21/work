@@ -1,6 +1,5 @@
 # Summary
 
 * test1
-* aa
-* aa我
+* test2
 
