@@ -39,5 +39,5 @@
 ```
 
 
-* **requirement : 网盟系统系统**
+* **requirement : 网盟系统**
 
