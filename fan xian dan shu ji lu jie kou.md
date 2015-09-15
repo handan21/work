@@ -27,10 +27,8 @@
 
 ```
   {
-      // 调⽤成功返回true，失败返回false
-      status: true/false,
-      // 状态描述
-      msg: '成功或失败的状态描述，⽂字信息'
+      status: true/false,  // 调⽤成功返回true，失败返回false
+      msg: '成功或失败的状态描述，⽂字信息'  // 状态描述
   }
 ```
 * **返回错误代码 code 列举**
