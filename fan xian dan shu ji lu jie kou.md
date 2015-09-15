@@ -4,7 +4,7 @@
 
 * **描述**
 ```
-测试地址 10.207.0.175  admin.f.leju.com
+测试地址 58.83.214.101  admin.f.leju.com
 正式地址 admin.f.leju.com
 ```
 
