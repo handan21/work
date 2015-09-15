@@ -41,6 +41,8 @@
             "cooperation_end_time" ：   <datetime>,     //合作结束时间
             "cooperation_type" ：       <int>,          //合作类型
             "month_returnmoney_num" ：  <int>,          //每月返现单数
+            "surplus_returnmoney_num" ：  <int>,          //剩余返现单数
+            ...
         }
     ]
 }
