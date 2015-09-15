@@ -8,7 +8,7 @@
 正式地址 admin.f.leju.com
 ```
 
-* ** api : [/api/return_money_record](//api/return_money_record)** 
+* ** api : [/api/returnmoney_record](//api/returnmoney_record)** 
 
 * **method : POST**
 
