@@ -19,8 +19,8 @@
 | 名称|类型| 必选 | 描述|
 | -- | -- | -- | -- |
 |hid |int|yes|楼盘id
-|returnmoney_num|int|yes| 返现单数 |
-|returnmoney_time |int|yes|返现时间|
+|return_money_num|int|yes| 返现单数 |
+|return_money_time |int|yes|返现时间|
 
 * **return : json**
 
