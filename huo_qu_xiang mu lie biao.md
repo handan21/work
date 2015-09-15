@@ -1,6 +1,14 @@
 
 # 获取项目列表
 
+
+* **描述**
+```
+测试地址 10.207.0.175  admin.f.leju.com
+正式地址 admin.f.leju.com
+```
+
+
 * ** api : [ /api/get_applications]( /api/get_applications)** 
 
 * **method : GET/POST**
