@@ -1,7 +1,7 @@
 
 # 获取项目列表
 
-* ** api : [ /api/get_application_list]( /api/get_application_list)** 
+* ** api : [ /api/get_applications]( /api/get_applications)** 
 
 * **method : GET/POST**
 
