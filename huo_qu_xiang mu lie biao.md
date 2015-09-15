@@ -11,11 +11,7 @@
 
 | 名称|类型| 必选 | 描述|
 | -- | -- | -- | -- |
-| cooperation_type  | string | no | 在白名单列表里中的手机号，即订单代叫人的手机号|
-| mobile|string|no|客户手机号|
-|real_order_id|string|no|实际订单编号|
-|limit|int|no|每页显示多少条数据 （可选参数 , 不填则所有） |
-|page|int|no|页码 从1 开始  （可选参数 和 limit 一同使用）|
+| cooperation_type  | int | no | 合作类型 1为91合作，2为非91合作|
 
 
 * **return : json**
@@ -27,12 +23,21 @@
     "msg" : null /暂无数据 
     "data" : [
         {
-            "order_id"：<int>, //码上专车自己的订单编号
-            "real_order_id" : <int>, //第三方打车系统的实际订单ID
-            "mobile" : <int>, //乘客手机号
-            "name" : <stirng> , //乘客姓名
-            "real_status" : <code> ,//第三方打车系统的订单状态
-            "appointment_time" ：<int> //预约时间戳
+            "app_id"：<int>, //项目id
+            "house_name" : <stirng>, //楼盘名称
+            "hid" : <int>, //楼盘ID
+            "city_en" : <stirng> , //楼盘所在城市
+            "area" : <stirng> ,//楼盘所在的区域
+            "price" ：<stirng> //价格
+            "price" ：<stirng> //价格
+            "price" ：<stirng> //价格
+            "price" ：<stirng> //价格
+            "price" ：<stirng> //价格
+            "price" ：<stirng> //价格
+            "price" ：<stirng> //价格
+            "price" ：<stirng> //价格
+            "price" ：<stirng> //价格
+            "price" ：<stirng> //价格
         }
     ]
 }
