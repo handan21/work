@@ -19,7 +19,7 @@
 | 名称|类型| 必选 | 描述|
 | -- | -- | -- | -- |
 |city_hid |sring|yes|cityen+楼盘id
-|return_money_time |int|yes|返现时间|
+|return_money_time |int|yes|申请返现时间|
 | callback | sring | no | jsonp 回调函数名称 |
 
 * **return : json/jsonp**
