@@ -27,7 +27,7 @@
 | callback | sring | no | jsonp 回调函数名称 |
 
 
-* **return : json**
+* **return : json/jsonp**
 
 ```
 {
