@@ -25,7 +25,6 @@
 | housetype  | int | no | 楼盘户型 |
 | area  | int | no | 区域 |
 | house_name  | int | no | 楼盘名称 |
-
 | callback | sring | no | jsonp 回调函数名称 |
 
 
