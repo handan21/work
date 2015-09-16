@@ -21,6 +21,9 @@
 | -- | -- | -- | -- |
 | cooperation_type  | int | no | 合作类型 1为91合作，2为非91合作|
 | returnmoney_time  | int | no | 查看哪个月份的返现 (时间戳)|
+| price  | int | no | 价格 |
+| area  | int | no | 区域 |
+| house_name  | int | no | 楼盘名称 |
 
 
 * **return : json**
