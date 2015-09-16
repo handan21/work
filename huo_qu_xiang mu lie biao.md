@@ -40,7 +40,7 @@
         {
             "app_id"：                  <int>,          //项目id
             "house_name" :              <stirng>,       //楼盘名称
-            "address" :                 <stirng>,       //楼盘地质
+            "address" :                 <stirng>,       //楼盘地址
             "hid" :                     <int>,          //楼盘ID
             "city_en" :                 <stirng> ,      //楼盘所在城市
             "area" :                    <stirng> ,      //楼盘所在的区域
