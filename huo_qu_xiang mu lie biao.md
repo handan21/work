@@ -20,6 +20,7 @@
 | 名称|类型| 必选 | 描述|
 | -- | -- | -- | -- |
 | cooperation_type  | int | no | 合作类型 1为91合作，2为非91合作|
+| returnmoney_time  | int | no | 查看返现月份 (时间戳)|
 
 
 * **return : json**
@@ -40,8 +41,8 @@
             "cooperation_start_time" ： <datetime>,     //合作起始时间
             "cooperation_end_time" ：   <datetime>,     //合作结束时间
             "cooperation_type" ：       <int>,          //合作类型
-            "month_returnmoney_num" ：  <int>,          //每月返现单数
-            "surplus_returnmoney_num" ：  <int>,          //剩余返现单数
+            "month_returnmoney_num" ：  <int>,          //当月返现单数
+            "surplus_returnmoney_num" ：  <int>,        //当月剩余返现单数
             ...
         }
     ]
