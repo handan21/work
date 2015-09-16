@@ -21,11 +21,11 @@
 | -- | -- | -- | -- |
 | cooperation_type  | int | no | 合作类型 1为91合作，2为非91合作|
 | returnmoney_time  | int | no | 查看什么时候的返现单数 (时间戳)|
+| house_name  | int | no | 楼盘名称 |
 | price_display  | int | no | 楼盘价格 |
 | housetype  | int | no | 户型 |
 | area  | int | no | 区域 |
 | address  | int | no | 楼盘地址 |
-| house_name  | int | no | 楼盘名称 |
 | callback | sring | no | jsonp 回调函数名称 |
 
 
