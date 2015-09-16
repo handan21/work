@@ -26,6 +26,8 @@
 | housetype  | int | no | 户型 |
 | area  | int | no | 区域 |
 | address  | int | no | 楼盘地址 |
+|limit|int|no|每页显示多少条数据 （可选参数 , 不填则所有） |
+|page|int|no|页码 从1 开始  （可选参数 和 limit 一同使用）|
 | callback | sring | no | jsonp 回调函数名称 |
 
 
