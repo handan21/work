@@ -43,6 +43,7 @@
             "city_en" :                 <stirng> ,      //楼盘所在城市
             "area" :                    <stirng> ,      //楼盘所在的区域
             "price" ：                  <stirng>,       //价格
+            "housetype" ：              <stirng>,       //户型
             "cooperation_start_time" ： <datetime>,     //合作起始时间
             "cooperation_end_time" ：   <datetime>,     //合作结束时间
             "cooperation_type" ：       <int>,          //合作类型
