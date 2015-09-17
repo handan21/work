@@ -22,8 +22,8 @@
 | cooperation_type  | int | no | 合作类型 1为91合作，2为非91合作|
 | returnmoney_time  | int | no | 查看什么时候的返现单数 (时间戳)|
 | house_name  | int | no | 楼盘名称 |
-| pricerange  | int | no | 价格区域 |
-| housetype  | int | no | 户型 |
+| pricerange  | int | no | 价格区域 (编号)|
+| housetype  | int | no | 户型 (编号)|
 | area  | int | no | 区域 |
 | address  | int | no | 楼盘地址 |
 |limit|int|no|每页显示多少条数据 （可选参数 , 不填则所有） |
