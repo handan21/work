@@ -21,14 +21,14 @@
 | -- | -- | -- | -- |
 | cooperation_type  | int | no | 合作类型 1为91合作，2为非91合作|
 | returnmoney_time  | int | no | 查看什么时候的返现单数 (时间戳)|
-| house_name  | int | no | 楼盘名称 |
+| house_name  | string | no | 楼盘名称 |
 | pricerange  | int | no | 价格区域 (编号)|
 | housetype  | int | no | 户型 (编号)|
-| area  | int | no | 区域 |
-| address  | int | no | 楼盘地址 |
+| area  | string | no | 区域 |
+| address  | string | no | 楼盘地址 |
 |limit|int|no|每页显示多少条数据 （可选参数 , 不填则所有） |
 |page|int|no|页码 从1 开始  （可选参数 和 limit 一同使用）|
-| callback | sring | no | jsonp 回调函数名称 |
+| callback | string | no | jsonp 回调函数名称 |
 
 
 * **return : json/jsonp**
