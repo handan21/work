@@ -21,6 +21,8 @@
 | -- | -- | -- | -- |
 | cooperation_type  | int | no | 合作类型 1为91合作，2为非91合作|
 | returnmoney_time  | int | no | 查看什么时候的返现单数 (时间戳)|
+| city_en  | string | no | 城市英文|
+| hid  | int | no | 楼盘id |
 | house_name  | string | no | 楼盘名称 |
 | pricerange  | int | no | 价格区域 (编号)|
 | housetype  | int | no | 户型 (编号)|
