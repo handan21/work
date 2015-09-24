@@ -37,24 +37,24 @@
 无
 ```
 * **验证签名方法**
-*  @param string $params array('city_hid'=$city_en.$hid,'time'=>申请返现时的时间戳)
+*   @param string $params array('city_hid'=$city_en.$hid,'time'=>申请返现时的时间戳)
 *  @param string $sign_key =‘3f25bc5044318bc31f0ef5ed7a927e24’
 *  @return string
 *  
-* function getSign($params = '', $sign_key = '') {
-        $params['sign_key'] = $sign_key;
-        ksort($params);
-        $str = '';
-        foreach ($params as $k => $v) {
-            if ('' == $str) {
-                $str .= $k . '=' . trim($v);
-            } else {
-                $str .= '&' . $k . '=' . trim($v);
+        function getSign($params = '', $sign_key = '') {
+            $params['sign_key'] = $sign_key;
+            ksort($params);
+            $str = '';
+            foreach ($params as $k => $v) {
+                if ('' == $str) {
+                    $str .= $k . '=' . trim($v);
+                } else {
+                    $str .= '&' . $k . '=' . trim($v);
+                }
             }
+            $sign = md5($str);
+            return $sign;
         }
-        $sign = md5($str);
-        return $sign;
-    }
 
 * **requirement : 网盟系统**
 
