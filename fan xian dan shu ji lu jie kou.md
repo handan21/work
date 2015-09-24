@@ -20,6 +20,7 @@
 | -- | -- | -- | -- |
 |city_hid |sring|yes|cityen+楼盘id
 |return_money_time |int|yes|申请返现时间|
+|sign |int|yes|签名字符串|
 | callback | sring | no | jsonp 回调函数名称 |
 
 * **return : json/jsonp**
@@ -35,7 +36,22 @@
 ```
 无
 ```
+* **验证签名方法**
+* function getSign($params = '', $sign_key = '') {
+        $params['sign_key'] = $sign_key;
+        ksort($params);
+        $str = '';
+        foreach ($params as $k => $v) {
+            if ('' == $str) {
+                $str .= $k . '=' . trim($v);
+            } else {
+                $str .= '&' . $k . '=' . trim($v);
+            }
+        }
+        $sign = md5($str);
 
+        return $sign;
+    }
 
 * **requirement : 网盟系统**
 
