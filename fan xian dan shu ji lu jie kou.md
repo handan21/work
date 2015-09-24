@@ -49,7 +49,6 @@
             }
         }
         $sign = md5($str);
-
         return $sign;
     }
 
